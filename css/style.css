@@ -16,7 +16,7 @@ body {
 	width: 100%;
 	margin: auto;
 	height: 677px;
-	background: url(../image/2.jpg);
+	background: #fff;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
 	height: 70px;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	background: black;
+	background: blue;
 	position: fixed;
 	z-index: 99;
 	width: 100%;
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: silver;
+	color: aqua;
 }
 
 /* Home */
@@ -79,8 +79,8 @@ nav ul li a:hover {
 }
 
 .home h1 {
-	color: #fff;
-	font-size: 52px;
+	color: rgb(170,228,232);
+	font-size: 70px;
 	text-shadow: 0 1px 0 #ccc,
            0 2px 0 #c9c9c9,
            0 3px 0 #bbb,
@@ -98,11 +98,11 @@ nav ul li a:hover {
 .home p {
 	width: 780px;
 	margin: auto;
-	color: #fff;
+	color: rgb(29,172,214);
 	font-size: 18px;
-	padding-top: 20px;
+	padding-top: 30px;
 	line-height: 25px;
-	padding-bottom: 40px;
+	padding-bottom: 70px;
 }
 
 .home a {
@@ -115,38 +115,26 @@ nav ul li a:hover {
 	margin-right: 10px;
 }
 
-.home .twitter {
-	padding: 20px 21px;
-	color: #fff;
-	border: 1px solid rgb(0,200,200);
-	background: rgb(0,200,200);
+.home .button {
+	font-size: 17px;
+	color: blue;
+	border: 1px solid blue;
+	padding: 10px 40px;
+	border-radius: 40px;
 }
 
-.home .facebook {
-	padding: 20px 27px;
-	background: rgb(64,64,255);
-	color: #fff;
-	border: 1px solid rgb(64,64,255);
+.home .button:hover {
+	background: rgb(227,245,251);
+	boder: 1px solid rgba(0,0,0,.1);
 }
 
-.home .google {
-	padding: 20px 23px;
-	background: #32abff;
-	color: #fff;
-	border: 1px solid #32abff;
-}
-
-.home .youtube {
-	padding: 20px 23px;
-	background: #ff2c72;
-	color: #fff;
-	border: 1px solid #ff2c72;
-}
+/*about*/
 
 .container {
 	width: 100%;
 	margin: auto;
-	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-top: 89px;
 }
 
 .container h2 {
@@ -157,7 +145,7 @@ nav ul li a:hover {
 	padding-bottom: 12px;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-size: 40px;
-	background: #3b3b3b;
+	background: silver;
 	text-shadow: 0 1px 0 #0687ff,
            0 2px 0 #c9c9c9,
            0 3px 0 #bbb,
@@ -172,10 +160,11 @@ nav ul li a:hover {
            0 20px 20px rgba(0,0,0,.15);
 }
 
+
 .about {
 	width: 100%;
 	margin: auto;
-	background: url(../image/19.jpg);
+	background: aqua;
 	height: 500px;
 	padding-top: 40px;
 }
@@ -183,21 +172,23 @@ nav ul li a:hover {
 .about-me {
 	width: 90%;
 	margin: auto;
+	color: blue;
 }
 
 .about h3 {
 	width: 560px;
 	font-size: 46px;
-	color: #fff;
+	color: blue;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	text-align: center;
 }
 
 .about p {
-	color: #fff;
+	color: silver;
 	width: 560px;
 	font-size: 24px;
-	padding-top: 12px;
+	padding-bottom: 10px;
+	padding-top: 20px;
 	line-height: 24px;
 	padding-left: 19px
 }
@@ -218,15 +209,17 @@ nav ul li a:hover {
 
 .about img {
 	float: right;
-	width: 510px;
-	margin-top: -304px;
+	width: 240px;
+	margin-top: -324px;
 	margin-right: 30px;
-	border: 2px solid #0687ff;
+	border: 2px solid silver;
 }
+
+/*end*/
 
 .portfolio {
 	width: 100%;
-	background: #3b3b3b;
+	background: yellow;
 	margin: auto;
 	height: 468px;
 }
@@ -253,7 +246,7 @@ nav ul li a:hover {
 }
 
 .portfolio1 {
-	width: 86%;
+	width: 	100%;
 	margin: auto;
 }
 
@@ -261,12 +254,218 @@ nav ul li a:hover {
 	width: 230px;
 }
 
+/*-----------------------*/
+
+.about {
+	width: 100%;
+	margin: auto;
+	background: #fff;
+	height: 500px;
+	padding-top: 60px;
+}
+
+.about-me1 {
+	width: 90%;
+	margin: auto;
+	color: blue;
+}
+
+.about1 h3 {
+	width: 560px;
+	font-size: 46px;
+	color: yellow;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	text-align: center;
+}
+
+.about1 p {
+	color: silver;
+	width: 560px;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	line-height: 24px;
+	padding-left: 19px
+}
+
+.about1 a {
+	width: 140px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	margin-top: 16px;
+	text-decoration: none;
+	background: #0687ff;
+	border-radius: 4px;
+	margin-left: 110px;
+}
+
+.about1 img {
+	float: right;
+	width: 200px;
+	margin-top: -327px;
+	margin-right: 30px;
+	border: 2px solid silver;
+}
+
+/*end*/
+
+/*------------a3*/
+
+.portfolio {
+	width: 100%;
+	background: yellow;
+	margin: auto;
+	height: 468px;
+}
+
+.portfolio h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 40px;
+	color: #fff;
+  	text-align: center;
+	text-shadow: 0 1px 0 #0687ff,
+           0 2px 0 #c9c9c9,
+           0 3px 0 #bbb,
+           0 4px 0 #b9b9b9,
+           0 5px 0 #aaa,
+           0 6px 1px rgba(0,0,0,.1),
+           0 0 5px rgba(0,0,0,.1),
+           0 1px 3px rgba(0,0,0,.3),
+           0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.25),
+           0 10px 10px rgba(0,0,0,.2),
+           0 20px 20px rgba(0,0,0,.15);
+}
+
+.portfolio1 {
+	width: 	100%;
+	margin: auto;
+}
+
+.portfolio1 img {
+	width: 230px;
+}
+
+/*-----------------------*/
+
+}
+
+.about2 {
+	width: 100%;
+	margin: auto;
+	background: #fff;
+	height: 500px;
+	padding-top: 60px;
+}
+
+.about-me2 {
+	width: 90%;
+	margin: auto;
+	color: blue;
+}
+
+.about2 h3 {
+	width: 560px;
+	font-size: 46px;
+	color: pink;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	text-align: center;
+}
+
+.about2 p {
+	color: silver;
+	width: 560px;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	line-height: 24px;
+	padding-left: 19px
+}
+
+.about2 a {
+	width: 140px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	margin-top: 16px;
+	text-decoration: none;
+	background: #0687ff;
+	border-radius: 4px;
+	margin-left: 110px;
+}
+
+.about2 img {
+	float: right;
+	width: 210px;
+	margin-top: -354px;
+	margin-right: 40px;
+	border: 2px solid silver;
+}
+
+/*end*/
+
+.portfolio {
+	width: 100%;
+	background: #3b3b3b;
+	margin: auto;
+	height: 468px;
+}
+
+.portfolio h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 40px;
+	color: green;
+  	text-align: center;
+	text-shadow: 0 1px 0 #0687ff,
+           0 2px 0 #c9c9c9,
+           0 3px 0 #bbb,
+           0 4px 0 #b9b9b9,
+           0 5px 0 #aaa,
+           0 6px 1px rgba(0,0,0,.1),
+           0 0 5px rgba(0,0,0,.1),
+           0 1px 3px rgba(0,0,0,.3),
+           0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.25),
+           0 10px 10px rgba(0,0,0,.2),
+           0 20px 20px rgba(0,0,0,.15);
+}
+
+.portfolio1 {
+	width: 	100%;
+	margin: auto;
+}
+
+.portfolio1 img {
+	width: 230px;
+}
+
+/*end2---------------*/
+
 .contact {
 	overflow: hidden;
-	background-color: #3b3b3b;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	height: 82%;
+	background-color: aqua;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	padding-left: 80px;
+	margin-bottom: 0px;
+}
+
+.contact h1 {
+	text-align: center;
+	height: 100px;
+	margin-top: -10px;
+	padding-right: 0px;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 .contact .info {
@@ -276,7 +475,7 @@ nav ul li a:hover {
 }
 
 .contact h2 {
-	color: #fff;
+	color: blue;
 	margin-left: 9px;
 	font-size: 24px;
 }
@@ -289,7 +488,7 @@ nav ul li a:hover {
 }
 
 .contact p strong {
-	color: #fff;
+	color: blue;
 }
 
 .contact .form {
@@ -302,7 +501,7 @@ nav ul li a:hover {
 .contact .form label {
 	display: block;
 	margin-bottom: 10px;
-	color: #fff;
+	color: blue;
 	font-size: 18px;
 }
 
@@ -363,7 +562,7 @@ nav ul li a:hover {
 }
 
 .contact .form .email {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .contact .form .message {
@@ -372,11 +571,9 @@ nav ul li a:hover {
 
 .footer {
 	padding: 20px;
-	border: 1px solid #fff;
 	color: #fff;
-	background: #3b3b3b;
+	background: rgb(143,143,143);
 	text-align: center;
-	border-radius: 10px;
 }
 
 

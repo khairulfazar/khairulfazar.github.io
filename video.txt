@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>.:Course Center FaDeRe:.</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+		<nav>
+			<a href="#" class="logo"><img src="image/logo amik.png" alt=""><small>Course Center "FaDeRe"</small></a>
+			<ul>
+				<li><a id="home" href="#homeSection">Home</a></li>
+				<li><a id="about" href="#aboutSection">About</a></li>
+				<li><a class="menu" href="register.html">Portofolio</a></li>
+				<li><a id="contact" href="#contactSection">Contact</a></li>
+			</ul>
+		</nav>
+
+			<div id="contactSection">
+					<div class="contact">
+						<div class="info">
+						<embed src="fa.mp"width="100%"height="90"loop="false"autostart="true"></embed>
+						
+						
+						
+						
+						
+										</div>
+				</div>
+				</div>
+	</body>
+</head>
+</html>
